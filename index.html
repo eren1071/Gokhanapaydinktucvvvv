@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Prof. Dr. Gökhan Apaydın | Akademik Web Sitesi</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Arka Plan Animasyon Halkaları -->
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <!-- Üst Bilgi / Header -->
+  <header>
+    <div class="container nav-container">
+      <div class="logo">
+        <i class="fa-solid fa-atom logo-icon"></i>
+        <span>Prof. Dr. Gökhan APAYDIN</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#hakkimda" class="active"><i class="fa-solid fa-user"></i> Biyografi</a></li>
+          <li><a href="#yayinlar"><i class="fa-solid fa-book-bookmark"></i> Yayınlar</a></li>
+          <li><a href="#projeler"><i class="fa-solid fa-flask"></i> Projeler & Lab</a></li>
+          <li><a href="#iletisim"><i class="fa-solid fa-paper-plane"></i> İletişim</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Tanıtım Bölümü -->
+  <section class="hero container">
+    <div class="hero-card">
+      <div class="profile-wrapper">
+        <div class="avatar-ring">
+          <div class="avatar">
+            <i class="fa-solid fa-user-graduate"></i>
+          </div>
+        </div>
+      </div>
+      <div class="hero-text">
+        <div class="badges">
+          <span class="badge primary"><i class="fa-solid fa-university"></i> KTÜ Fizik Bölümü</span>
+          <span class="badge accent"><i class="fa-solid fa-award"></i> Anabilim Dalı Başkanı</span>
+          <span class="badge info"><i class="fa-solid fa-microscope"></i> BAP Koordinatörü</span>
+        </div>
+        <h1>Prof. Dr. Gökhan APAYDIN</h1>
+        <p class="subtitle">Karadeniz Teknik Üniversitesi - Fen Fakültesi, Fizik Bölümü</p>
+        <p class="description">
+          Atom ve Molekül Fiziği, Gama ve X-Işını Spektroskopisi, Fotonla Etkileşmeler ve Radyasyon Fiziği alanlarında bilimsel araştırmalar yürütmektedir. 
+        </p>
+        <div class="hero-actions">
+          <a href="#iletisim" class="btn btn-primary"><i class="fa-solid fa-envelope"></i> İletişime Geç</a>
+          <a href="https://avesis.ktu.edu.tr/gapaydin" target="_blank" class="btn btn-outline"><i class="fa-solid fa-arrow-up-right-from-square"></i> AVESİS Profili</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- İstatistik Sayacı -->
+  <section class="stats container">
+    <div class="stat-card">
+      <div class="stat-icon"><i class="fa-solid fa-file-lines"></i></div>
+      <div class="stat-number" data-target="138">0</div>
+      <div class="stat-label">Toplam Yayın</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon"><i class="fa-solid fa-certificate"></i></div>
+      <div class="stat-number" data-target="83">0</div>
+      <div class="stat-label">WoS İndeksli Makale</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon"><i class="fa-solid fa-quote-right"></i></div>
+      <div class="stat-number" data-target="1200">0</div>
+      <div class="stat-label">+ Atıf Sayısı</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon"><i class="fa-solid fa-diagram-project"></i></div>
+      <div class="stat-number" data-target="25">0</div>
+      <div class="stat-label">Tamamlanan Proje</div>
+    </div>
+  </section>
+
+  <!-- Uzmanlık Alanları -->
+  <section id="hakkimda" class="container section">
+    <h2 class="section-title"><i class="fa-solid fa-layer-group"></i> Araştırma ve Uzmanlık Alanları</h2>
+    <div class="grid grid-3">
+      <div class="card hover-glow">
+        <div class="card-icon"><i class="fa-solid fa-wave-square"></i></div>
+        <h3>X-Işını Spektroskopisi</h3>
+        <p>EDXRF ve WDXRF teknikleri ile elementel analizler, kütle soğurma katsayıları ve floresan verim hesabı.</p>
+      </div>
+      <div class="card hover-glow">
+        <div class="card-icon"><i class="fa-solid fa-atom"></i></div>
+        <h3>Gama Işını Etkileşmeleri</h3>
+        <p>Çeşitli zırhlama malzemelerinde gama radyasyonu zayıflatma ve foton etkileşim parametrelerinin incelenmesi.</p>
+      </div>
+      <div class="card hover-glow">
+        <div class="card-icon"><i class="fa-solid fa-vial"></i></div>
+        <h3>Atomik Parametreler</h3>
+        <p>K ve L kabuğu X-ışını üretim tesir kesitleri, kimyasal kayma ve atomik yapı hesaplamaları.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Yayınlar ve Makaleler -->
+  <section id="yayinlar" class="container section">
+    <h2 class="section-title"><i class="fa-solid fa-newspaper"></i> Öne Çıkan Yayınlar</h2>
+    <div class="publications-list">
+      
+      <div class="pub-card">
+        <div class="pub-badge">SCI-E</div>
+        <div class="pub-content">
+          <h4>Measurement of K-shell fluorescence yields for high atomic number elements</h4>
+          <p class="pub-authors">G. Apaydın, E. Cengiz, K. Baltaş</p>
+          <p class="pub-journal"><i class="fa-solid fa-book"></i> Radiation Physics and Chemistry | <span>2023</span></p>
+        </div>
+        <a href="#" class="pub-link"><i class="fa-solid fa-external-link"></i></a>
+      </div>
+
+      <div class="pub-card">
+        <div class="pub-badge">SCI-E</div>
+        <div class="pub-content">
+          <h4>Investigation of gamma-ray shielding properties of novel heavy metal borate glasses</h4>
+          <p class="pub-authors">G. Apaydın, H. Ali, M. Yılmaz</p>
+          <p class="pub-journal"><i class="fa-solid fa-book"></i> Journal of Non-Crystalline Solids | <span>2022</span></p>
+        </div>
+        <a href="#" class="pub-link"><i class="fa-solid fa-external-link"></i></a>
+      </div>
+
+      <div class="pub-card">
+        <div class="pub-badge">SCI</div>
+        <div class="pub-content">
+          <h4>Chemical effect on L X-ray intensity ratios for selected lanthanide compounds</h4>
+          <p class="pub-authors">G. Apaydın, V. Aylıkcı</p>
+          <p class="pub-journal"><i class="fa-solid fa-book"></i> Applied Radiation and Isotopes | <span>2021</span></p>
+        </div>
+        <a href="#" class="pub-link"><i class="fa-solid fa-external-link"></i></a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- İletişim -->
+  <section id="iletisim" class="container section">
+    <h2 class="section-title"><i class="fa-solid fa-address-book"></i> İletişim Bilgileri</h2>
+    <div class="grid grid-2">
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <strong>Adres:</strong>
+            <p>KTÜ Fen Fakültesi, Fizik Bölümü, Oda No: 205, 61080 Trabzon / TÜRKİYE</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <strong>E-Posta:</strong>
+            <p>gapaydin@ktu.edu.tr</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <strong>Telefon:</strong>
+            <p>+90 (462) 377 25 00</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-card">
+        <h3>Görüşme Talebi</h3>
+        <p>Lisansüstü çalışma ve ortak proje talepleriniz için e-posta adresi üzerinden iletişime geçebilirsiniz.</p>
+        <a href="mailto:gapaydin@ktu.edu.tr" class="btn btn-primary full-width"><i class="fa-solid fa-paper-plane"></i> E-Posta Gönder</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2026 Prof. Dr. Gökhan APAYDIN — Tüm Hakları Saklıdır.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
